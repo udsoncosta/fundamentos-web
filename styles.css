@@ -1,0 +1,34 @@
+body {
+    background-color: #219b9bb2;
+  }
+  
+  p{
+    font-size: 20px;  
+    color: black; 
+    font-weight: bold;
+}   
+
+#p-first{
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.p-color{
+    color: black;
+}
+
+img{
+    width: 300px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border : 1cap double rgb(32, 118, 145);
+    padding: 8px;
+    margin : 8px;
+}
