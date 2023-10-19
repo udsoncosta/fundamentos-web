@@ -1,17 +1,14 @@
 body {
-    background-color: #219b9bb2;
+    background-color: #2dc0c0b2;
   }
   
   p{
     font-size: 20px;  
     color: black; 
-    font-weight: bold;
 }   
 
 #p-first{
-    font-size: 24px;
-    font-weight: bold;
-    
+    font-size: 24px;    
 }
 
 .p-color{
@@ -28,7 +25,25 @@ img{
     align-items: center;
     flex-direction: column;
 
-    border : 1cap double rgb(32, 118, 145);
-    padding: 8px;
-    margin : 8px;
+    border : 1cap double rgb(78, 185, 218);
+    padding: 20px;
+    margin : 10px;
+}
+
+
+#menu li
+{
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+#menu li a:hover
+{
+    color: rgb(252, 251, 251);
 }
